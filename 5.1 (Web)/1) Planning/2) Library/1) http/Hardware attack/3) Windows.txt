@@ -1,0 +1,8 @@
+3) Windows+L
+Shutdown
+
+4) Password change without old password known using admin login
+
+5) Password logout timeout change using admin in task manager
+
+6) Permanent delete in windows, shift+delete.

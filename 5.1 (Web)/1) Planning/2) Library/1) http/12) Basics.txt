@@ -1,0 +1,13 @@
+Binary = Possibility
+
+ASCII Table:
+
+Value: 
+	1) 8 bit = 1 byte
+
+Conversion:
+	1) Binary to Hexadecimal 
+
+Model:
+        1) OSI Model
+        2) TCP/IP Model

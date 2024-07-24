@@ -1,0 +1,108 @@
+Transmission media
+Guided 
+>>
+Coaxial cable
+Twisted pair
+Fibre Optic:- uses light pulses to transmit data
+Connectors
+>>
+RJ45
+Types of networks
+>>
+Client Server
+Peer to Peer
+
+Network Topologies
+Bus 
+>>
+All stations connected through single cable called backbone cable 
+Stations are connected to backbone directly or through drop cables
+Sends message over the network. All machines available receive it whether it has been addressed or not
+mainly used in ethernet (802.3) and 802.4 networks
+simple
+single point of failure
+
+Ring
+>>
+Adjacent nodes can communicate
+data is unidirectional
+data flows in endless loop
+works on token
+token is passed from host to host till it reaches destination
+single point of failure
+
+Star
+>>
+nodes are connected to each other through central hub, switch or central computer
+Central computer acts as a server and others are clients
+Co-axial or RJ45 cables are used to connect
+
+Mesh
+>>
+all nodes are connected to each other
+multiple paths from one host to another
+no central point of communication (hub, switch, central computer)
+eg. Internet
+
+Hybrid
+>>
+combination of different topologies
+scalable
+reliable
+flexible
+
+Categories of networks
+
+LAN
+>>
+Local Area Network
+connects small group of networks
+home, hospital, college, school
+easy to maintain and design
+high speed
+short propagation delays
+low congestion
+
+MAN
+>>
+Metropolitan Area Network
+comparitively wider netwrok
+Many organizations and telecom operators use
+comparitively difficult to design
+moderate speed
+moderate propagation delay
+higher congestion
+
+WAN
+>>
+Wide Area Network
+capacity to connect countries together
+can be private or public
+very difficult to design and maintain
+low speed
+high propagation delays
+
+System
+>>
+Windows TTL>> 128
+Printer TTL>>
+Linux/MACOS TTL>> 64
+Router TTL>> 255
+Cisco TTL>> 255
+
+Modes of Addressing
+
+IPv4 supports three different types of addressing modes. −
+
+Unicast Addressing Mode
+In this mode, data is sent only to one destined host. The Destination Address field contains 32- bit IP address of the destination host. Here the client sends data to the targeted server −
+
+Broadcast Addressing Mode
+In this mode, the packet is addressed to all the hosts in a network segment. The Destination Address field contains a special broadcast address, i.e. 255.255.255.255. When a host sees this packet on the network, it is bound to process it. Here the client sends a packet, which is entertained by all the Servers −
+
+Multicast Addressing Mode
+This mode is a mix of the previous two modes, i.e. the packet sent is neither destined to a single host nor all the hosts on the segment. In this packet, the Destination Address contains a special address which starts with 224.x.x.x and can be entertained by more than one host.
+
+
+Here a server sends packets which are entertained by more than one servers. Every network has one IP address reserved for the Network Number which represents the network and one IP address reserved for the Broadcast Address, which represents all the hosts in that network.
+
